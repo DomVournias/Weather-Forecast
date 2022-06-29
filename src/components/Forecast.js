@@ -25,7 +25,7 @@ const Forecast = ({ daily, hourly }) => {
         </Daily>
       </Title>
 
-      <Row p="1em">
+      <Row p="1em 0em 0em 0em" j="space-evenly">
         {forecastType === "hourly" ? (
           <>
             {hourly?.map((hour, index) => (

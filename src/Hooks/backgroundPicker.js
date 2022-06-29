@@ -1,5 +1,5 @@
-import clearBg from "../images/backgrounds/clear.jpg";
-import cloudsBg from "../images/backgrounds/clouds.jpg";
+import clearBg from "../images/backgrounds/clear5.jpg";
+import cloudsBg from "../images/backgrounds/cloudy2.jpg";
 import rainBg from "../images/backgrounds/rain.jpg";
 
 export default function useBackgroundPicker(value) {

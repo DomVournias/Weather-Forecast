@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { media, StyledButton } from "./GlobalStyles";
+import { device, media, StyledButton } from "./GlobalStyles";
 
 export const Title = styled.div`
   display: flex;
@@ -16,6 +16,8 @@ export const Daily = styled(StyledButton)`
 `;
 
 export const Bottom = styled.div`
+  align-self: center;
+  width: 100%;
   text-align: center;
   padding: 1em 1em;
   background-color: white;
@@ -25,5 +27,13 @@ export const Bottom = styled.div`
 
   ${media.xs} {
     padding: 1em 0em 0em 0em;
+  }
+
+  @media ${device.mobileM} {
+    max-width: 640px;
+  }
+
+  @media ${device.laptopL} {
+    max-width: 640px;
   }
 `;
