@@ -18,11 +18,9 @@ A weather forecast web application built with React. The visitor can see daily a
 
 -  **Client**
 	- Reactjs
-	- React Dom
 	- Axios
 	- Framer Motion
 	- React Icons
-	- React Scripts
 	- Styled Components
 	- Luxon
 
